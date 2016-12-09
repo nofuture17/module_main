@@ -1,6 +1,6 @@
 {
   "type":"package",
-  "name": "amd-php-dev/module_main",
+  "name": "amdphpdev/module_main",
   "description": "Главный модуль для централизованного движка",
   "license": "MIT",
   "authors": [
