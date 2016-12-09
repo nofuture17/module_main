@@ -7,13 +7,13 @@ namespace amd_php_dev\module_main\models;
  *
  * @see MenuItem
  */
-class MenuItemQuery extends \app\components\models\SmartQuery
+class MenuItemQuery extends \amd_php_dev\yii2_components\models\SmartQuery
 {
     public function behaviors()
     {
         return [
             'nestedCategoryQuery' => [
-                'class' => '\app\components\behaviors\nestedsets\NestedSetsQueryBehavior',
+                'class' => '\amd_php_dev\yii2_components\behaviors\nestedsets\NestedSetsQueryBehavior',
             ]
         ];
     }

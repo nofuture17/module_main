@@ -8,12 +8,12 @@ use amd_php_dev\module_main\models\RedirectSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use \app\components\helpers;
+use \amd_php_dev\yii2_components\helpers;
 
 /**
  * RedirectController implements the CRUD actions for Redirect model.
  */
-class RedirectController extends \app\components\controllers\AdminController
+class RedirectController extends \amd_php_dev\yii2_components\controllers\AdminController
 {
     public function behaviors()
     {

@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use \yii\helpers\Url;
-use \app\components\widgets\form\SmartInput;
+use \amd_php_dev\yii2_components\widgets\form\SmartInput;
 
 /* @var $this yii\web\View */
 /* @var $model amd_php_dev\module_main\models\Param */

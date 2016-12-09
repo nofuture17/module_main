@@ -8,12 +8,12 @@ use amd_php_dev\module_main\models\ParamSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use \app\components\helpers;
+use \amd_php_dev\yii2_components\helpers;
 
 /**
  * ParamController implements the CRUD actions for Param model.
  */
-class ParamController extends \app\components\controllers\AdminController
+class ParamController extends \amd_php_dev\yii2_components\controllers\AdminController
 {
     public function behaviors()
     {

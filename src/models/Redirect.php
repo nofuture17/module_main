@@ -3,7 +3,7 @@
 namespace amd_php_dev\module_main\models;
 
 use Yii;
-use \app\components\widgets\form\SmartInput;
+use \amd_php_dev\yii2_components\widgets\form\SmartInput;
 
 /**
  * This is the model class for table "{{%redirect}}".
@@ -15,7 +15,7 @@ use \app\components\widgets\form\SmartInput;
  * @property string $to
  * @property integer $author
  */
-class Redirect extends \app\components\models\SmartRecord
+class Redirect extends \amd_php_dev\yii2_components\models\SmartRecord
 {
     // Статусы редиректов
     const CODE_301 = 301;
@@ -24,7 +24,7 @@ class Redirect extends \app\components\models\SmartRecord
     public function behaviors()
     {
         return [
-            '\app\components\behaviors\AuthorBehavior',
+            '\amd_php_dev\yii2_components\behaviors\AuthorBehavior',
         ];
     }
 

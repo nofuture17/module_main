@@ -27,7 +27,7 @@ use yii\grid\GridView;
             'created_at:date',
             //'updated_at',
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'priority',
                 'setFilter' => true,
                 'formAction' => [
@@ -36,7 +36,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'active',
                 'setFilter' => true,
                 'formAction' => [
@@ -46,7 +46,7 @@ use yii\grid\GridView;
             ],
             // 'author',
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'name',
                 'setFilter' => true,
                 'formAction' => [
@@ -55,7 +55,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'url',
                 'setFilter' => true,
                 'formAction' => [

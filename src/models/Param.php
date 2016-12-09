@@ -3,7 +3,7 @@
 namespace amd_php_dev\module_main\models;
 
 use Yii;
-use \app\components\widgets\form\SmartInput;
+use \amd_php_dev\yii2_components\widgets\form\SmartInput;
 use \yii\helpers\FileHelper;
 
 /**
@@ -16,7 +16,7 @@ use \yii\helpers\FileHelper;
  * @property string $name
  * @property string $type
  */
-class Param extends \app\components\models\SmartRecord
+class Param extends \amd_php_dev\yii2_components\models\SmartRecord
 {
 
     /**

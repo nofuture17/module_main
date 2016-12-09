@@ -7,7 +7,7 @@
 
 namespace amd_php_dev\module_main\modules\admin\controllers;
 
-class DefaultController extends \app\components\controllers\AdminController
+class DefaultController extends \amd_php_dev\yii2_components\controllers\AdminController
 {
     public function behaviors()
     {

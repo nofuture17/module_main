@@ -7,7 +7,7 @@ namespace amd_php_dev\module_main\models;
  *
  * @see Tag
  */
-class TagQuery extends \app\components\models\PageQuery
+class TagQuery extends \amd_php_dev\yii2_components\models\PageQuery
 {
     /*public function active()
     {

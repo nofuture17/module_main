@@ -3,7 +3,7 @@
 namespace amd_php_dev\module_main\models;
 
 use Yii;
-use \app\components\widgets\form\SmartInput;
+use \amd_php_dev\yii2_components\widgets\form\SmartInput;
 /**
  * This is the model class for table "menu".
  *
@@ -18,7 +18,7 @@ class Menu extends \amd_php_dev\yii2_components\models\SmartRecord
     public function behaviors()
     {
         return [
-            '\app\components\behaviors\AuthorBehavior',
+            '\amd_php_dev\yii2_components\behaviors\AuthorBehavior',
         ];
     }
 

@@ -2,7 +2,7 @@
 
 namespace amd_php_dev\module_main\modules\admin;
 
-class Module extends \app\components\modules\Admin
+class Module extends \amd_php_dev\yii2_components\modules\Admin
 {
     public $controllerNamespace = 'amd_php_dev\module_main\modules\admin\controllers';
 

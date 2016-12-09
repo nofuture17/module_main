@@ -39,12 +39,12 @@ class GalleryController extends AdminController
     {
         return [
             'image-gallery' => [
-                'class' => '\app\components\actions\GalleryAction',
+                'class' => '\amd_php_dev\yii2_components\actions\GalleryAction',
                 'modelClass' => GalleryPage::className(),
                 'galleryManagerName' => 'imageGallery',
             ],
             'video-gallery' => [
-                'class' => '\app\components\actions\GalleryAction',
+                'class' => '\amd_php_dev\yii2_components\actions\GalleryAction',
                 'modelClass' => GalleryPage::className(),
                 'galleryManagerName' => 'imageGallery',
             ]

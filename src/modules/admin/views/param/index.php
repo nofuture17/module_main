@@ -24,7 +24,7 @@ use yii\helpers\Url;
         'columns' => [
             'name',
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'active',
                 'setFilter' => true,
                 'formAction' => [
@@ -34,7 +34,7 @@ use yii\helpers\Url;
             ],
             'param',
             [
-                'class' => 'app\components\widgets\grid\SetColumn',
+                'class' => 'amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'value',
                 'formAction' => [
                     'route' => '/main/admin/param/update',

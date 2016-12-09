@@ -8,12 +8,12 @@ use amd_php_dev\module_main\models\MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use \app\components\helpers;
+use \amd_php_dev\yii2_components\helpers;
 
 /**
  * MenuController implements the CRUD actions for Menu model.
  */
-class MenuController extends \app\components\controllers\AdminController
+class MenuController extends \amd_php_dev\yii2_components\controllers\AdminController
 {
     public function behaviors()
     {

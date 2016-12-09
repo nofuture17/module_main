@@ -9,7 +9,7 @@
 namespace amd_php_dev\module_main\controllers;
 
 
-use app\components\controllers\PublicController;
+use amd_php_dev\yii2_components\controllers\PublicController;
 use yii\base\Exception;
 use yii\web\BadRequestHttpException;
 
@@ -125,7 +125,7 @@ TEXT;
         $result = false;
 
         try {
-            $result = \Yii::$app->mailer->compose('@app/modules/main/mails/email-form', ['mail' => $mail])
+            $result = \Yii::$app->mailer->compose('@app/modules/main/mails/email-form', ['mail' => $mail]) // TODO: Сделать алиас для модуля при подключиении
                 ->setFrom([\Yii::$app->params['MAILER.USERNAME'] => \Yii::$app->name])
                 ->setTo($mail->address)
                 ->setSubject($mail->name . ' ' . \yii::$app->request->hostName)

@@ -8,11 +8,11 @@ use amd_php_dev\module_main\models\MenuItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use \app\components\helpers;
+use \amd_php_dev\yii2_components\helpers;
 /**
  * MenuItemController implements the CRUD actions for MenuItem model.
  */
-class MenuItemController extends \app\components\controllers\AdminController
+class MenuItemController extends \amd_php_dev\yii2_components\controllers\AdminController
 {
     public function behaviors()
     {

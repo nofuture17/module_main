@@ -7,7 +7,7 @@ namespace amd_php_dev\module_main\models;
  *
  * @see Param
  */
-class ParamQuery extends \app\components\models\SmartQuery
+class ParamQuery extends \amd_php_dev\yii2_components\models\SmartQuery
 {
     /*public function active()
     {

@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'code',
         'label'     => true,
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'to')->textInput(['maxlength' => true]) ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'active',
         'label'     => true,

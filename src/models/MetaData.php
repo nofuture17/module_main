@@ -2,7 +2,7 @@
 
 namespace amd_php_dev\module_main\models;
 
-use app\components\widgets\form\SmartInput;
+use amd_php_dev\yii2_components\widgets\form\SmartInput;
 use Yii;
 
 /**

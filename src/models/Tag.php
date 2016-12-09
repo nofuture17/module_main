@@ -27,7 +27,7 @@ use Yii;
  * @property string $image_small
  * @property string $image_full
  */
-class Tag extends \app\components\models\Page
+class Tag extends \amd_php_dev\yii2_components\models\Page
 {
     const IMAGES_PATH_ALIAS = '@webroot/data/images/tag/';
     const IMAGES_URL_ALIAS = '@web/data/images/tag/';

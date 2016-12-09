@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
         'options' => ['enctype'=>'multipart/form-data']
     ]); ?>
 
-    <?= \app\components\widgets\form\AdminPageFieldSet::widget([
+    <?= \amd_php_dev\yii2_components\widgets\form\AdminPageFieldSet::widget([
         'model' => $model,
         'form' => $form
     ]) ?>

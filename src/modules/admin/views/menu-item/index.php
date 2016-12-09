@@ -25,7 +25,7 @@ use yii\grid\GridView;
 
             'id',
             [
-                'class' => '\app\components\widgets\grid\SetColumn',
+                'class' => '\amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'active',
                 'setFilter' => true,
                 'formAction' => [
@@ -34,7 +34,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => '\app\components\widgets\grid\SetColumn',
+                'class' => '\amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'name',
                 'formAction' => [
                     'route' => '/main/admin/menu-item/update',
@@ -42,7 +42,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => '\app\components\widgets\grid\SetColumn',
+                'class' => '\amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'id_menu',
                 'setFilter' => true,
                 'formAction' => [
@@ -51,7 +51,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => '\app\components\widgets\grid\SetColumn',
+                'class' => '\amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'id_parent',
                 'setFilter' => true,
                 'formAction' => [
@@ -60,7 +60,7 @@ use yii\grid\GridView;
                 ],
             ],
             [
-                'class' => '\app\components\widgets\grid\SetColumn',
+                'class' => '\amd_php_dev\yii2_components\widgets\grid\SetColumn',
                 'attribute' => 'url',
                 'formAction' => [
                     'route' => '/main/admin/menu-item/update',

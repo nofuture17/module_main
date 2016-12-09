@@ -3,7 +3,7 @@
 namespace amd_php_dev\module_main\models;
 
 use Yii;
-use \app\components\widgets\form\SmartInput;
+use \amd_php_dev\yii2_components\widgets\form\SmartInput;
 use \yii\helpers\ArrayHelper;
 /**
  * This is the model class for table "menu_item".
@@ -28,9 +28,9 @@ class MenuItem extends \amd_php_dev\yii2_components\models\SmartRecord
     public function behaviors()
     {
         return [
-            '\app\components\behaviors\AuthorBehavior',
+            '\amd_php_dev\yii2_components\behaviors\AuthorBehavior',
             'nestedCategory' => [
-                'class' => '\app\components\behaviors\NestedCategoryBehavior',
+                'class' => '\amd_php_dev\yii2_components\behaviors\NestedCategoryBehavior',
                 'treeAttribute' => 'tree',
             ],
             'image' => [

@@ -7,7 +7,7 @@ namespace amd_php_dev\module_main\models;
  *
  * @see Redirect
  */
-class RedirectQuery extends \app\components\models\SmartQuery
+class RedirectQuery extends \amd_php_dev\yii2_components\models\SmartQuery
 {
     /*public function active()
     {

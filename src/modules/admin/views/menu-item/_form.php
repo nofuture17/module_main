@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
     ]); ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'active',
         'label'     => true,
@@ -28,7 +28,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'url')->textInput(['maxlength' => true]) ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'id_menu',
         'label'     => true,
@@ -37,7 +37,7 @@ use yii\widgets\ActiveForm;
     ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'id_parent',
         'label'     => true,
@@ -46,7 +46,7 @@ use yii\widgets\ActiveForm;
     ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'priority',
         'label'     => true,
@@ -55,7 +55,7 @@ use yii\widgets\ActiveForm;
     ?>
 
     <?php
-    echo \app\components\widgets\form\SmartInput::widget([
+    echo \amd_php_dev\yii2_components\widgets\form\SmartInput::widget([
         'model'     => $model,
         'attribute' => 'image',
         'label'     => true,
