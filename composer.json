@@ -1,29 +1,30 @@
 {
-  "type":"composer",
-  "name": "amdphpdev/module_main",
-  "description": "Главный модуль для централизованного движка.",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "nofuture17",
-      "email": "ar2041@bk.ru"
+    "name": "amd-php-dev/module_main",
+    "description": "Main module for central engine.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nofuture17",
+            "email": "ar2041@bk.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "yiisoft/yii2": ">=2.0.5",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "amd-php-dev/yii2-components": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "amd_php_dev\\module_main\\": "src"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.5",
-    "ext-curl": "*",
-    "yiisoft/yii2": ">=2.0.5",
-    "yiisoft/yii2-bootstrap": "*",
-    "yiisoft/yii2-swiftmailer": "*",
-    "yiisoft/yii2-codeception": "*",
-    "yiisoft/yii2-debug": "*",
-    "yiisoft/yii2-gii": "*",
-    "yiisoft/yii2-faker": "*",
-    "amd-php-dev/yii2-components": "^1.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "amd_php_dev\\module_main\\": "src"
-    }
-  }
 }
